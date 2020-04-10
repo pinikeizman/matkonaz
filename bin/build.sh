@@ -1,0 +1,1 @@
+eval flutter pub run build_runner build watch --delete-conflicting-outputs

@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'recipesstore.dart';
+part of 'matkonazstore.dart';
 
 // **************************************************************************
 // StoreGenerator
@@ -8,8 +8,8 @@ part of 'recipesstore.dart';
 
 // ignore_for_file: non_constant_identifier_names, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
 
-mixin _$RecipesStore on _RecipesStore, Store {
-  final _$recipesAtom = Atom(name: '_RecipesStore.recipes');
+mixin _$MatkonazStore on _MatkonazStore, Store {
+  final _$recipesAtom = Atom(name: '_MatkonazStore.recipes');
 
   @override
   List<Recipe> get recipes {
@@ -26,16 +26,26 @@ mixin _$RecipesStore on _RecipesStore, Store {
     }, _$recipesAtom, name: '${_$recipesAtom.name}_set');
   }
 
-  final _$_RecipesStoreActionController =
-      ActionController(name: '_RecipesStore');
+  final _$_MatkonazStoreActionController =
+      ActionController(name: '_MatkonazStore');
 
   @override
   void add(Recipe recipe) {
-    final _$actionInfo = _$_RecipesStoreActionController.startAction();
+    final _$actionInfo = _$_MatkonazStoreActionController.startAction();
     try {
       return super.add(recipe);
     } finally {
-      _$_RecipesStoreActionController.endAction(_$actionInfo);
+      _$_MatkonazStoreActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  void set(List<Recipe> _recipes) {
+    final _$actionInfo = _$_MatkonazStoreActionController.startAction();
+    try {
+      return super.set(_recipes);
+    } finally {
+      _$_MatkonazStoreActionController.endAction(_$actionInfo);
     }
   }
 
